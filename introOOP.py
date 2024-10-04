@@ -6,24 +6,24 @@ class Persona:
         self.genero = genero
         self.ocupacion = ocupacion
 
-    # Método para saludar
+    # Metodo para saludar
     def saludar(self):
         print(f"Hola, mi nombre es {self.nombre}.")
 
-    # Método para indicar la ocupación
+    # Metodo para indicar la ocupación
     def mostrar_ocupacion(self):
         print(f"Soy {self.ocupacion} de profesión.")
 
-    # Método para mostrar la edad
+    # Metodo para mostrar la edad
     def mostrar_edad(self):
         print(f"Tengo {self.edad} años.")
 
-    # Método para actualizar la ocupación
+    # Metodo para actualizar la ocupación
     def cambiar_ocupacion(self, nueva_ocupacion):
         self.ocupacion = nueva_ocupacion
         print(f"Ahora soy {self.ocupacion}.")
 
-    # Método para cumpleaños (incrementar la edad)
+    # Metodo para cumpleaños (incrementar la edad)
     def cumplir_anios(self):
         self.edad += 1
         print(f"¡Feliz cumpleaños! Ahora tienes {self.edad} años.")
